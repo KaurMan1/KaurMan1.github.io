@@ -1,0 +1,33 @@
+#top
+{
+    Text-align: center;
+    background-color: darkblue;
+    Color: white;
+    Padding: 5px;
+    Border-style:solid;
+    Border-color: red;
+}
+#box1
+{
+    Position:relative;
+    Background-color:lightblue;
+    width:100%;
+    Top:10px;
+    Height: 300px;
+    Margin:10px;
+}
+#myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+#myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    display: block
+  }
+  
+#myMenu li a:hover {
+    background-color: #eee;
+  }
