@@ -86,7 +86,8 @@
 }
 .contentImg{
   height:80%;
-  width: 50%
+  width: 50%;
+  position: center;
   
 }
   #camera {
@@ -135,7 +136,7 @@ button:hover {
 }
 #spots{
   display:flex;
-  flex-wrap:wrap;
+  
   justify-content:center;
 
 }
