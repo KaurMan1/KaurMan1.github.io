@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+!DOCTYPE html>
 <html>
 
     <head>
@@ -25,18 +26,33 @@
                 <div class ="myMenu">
                     <ul id="myMenu">
                         <button onclick="window.open('dashboard.html','_parent')">Dashboard</button>
-                        
                         <button onclick="window.open('addlocation.html','_parent')">Add Location</button>
                         <button onclick="window.open('saved.html','_parent')">Saved Locations</button>
-                        
-                    
                     </ul>
-            
-            
+                    </div>
+                    <div id="navBar">
+                        
+                        <input id="btnCamera" type="file" accept="image/*" capture="environment"/>
+                        <button>Gallery</button>
+                
                 </div>
+                <section id="add-location">
+                    <form id="spot-form" action = "saved.html" method="get">
+                        <input type="text" name="name" placeholder="Location Name" required>
+                <input type="file" name="image" accept="image/*" required>
+                <input type="number" name="rating" placeholder="Rating (1-5)" min="1" max="5" required>
+                <textarea name="description" placeholder="Description" required></textarea>
+                <textarea name="review" placeholder="Review" required></textarea>
+                <button type="submit">Save Location</button>
+                    </form>
+                </section>
+                </div>
+                
+                
                 
         </div>
       
     </body>
 
 </html>
+

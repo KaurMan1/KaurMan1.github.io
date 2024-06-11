@@ -1,33 +1,157 @@
 #top
 {
     Text-align: center;
-    background-color: darkblue;
+    background-color:#4A7183;
     Color: white;
     Padding: 5px;
     Border-style:solid;
     Border-color: red;
 }
-#box1
-{
-    Position:relative;
-    Background-color:lightblue;
-    width:100%;
-    Top:10px;
-    Height: 300px;
-    Margin:10px;
+
+.modal img {
+  max-width: 100%;
+  height: auto;
 }
+.rating {
+  font-size: 18px;
+  color: gold;
+}
+.content-section {
+  
+  margin-bottom: 20px;
+}
+.content-section h4 {
+  margin: 10px 0 5px;
+}
+
+
 #myMenu {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: top;
+  bottom: 0;
+  width: 100%;
   }
-#myMenu li a {
-    padding: 12px;
-    text-decoration: none;
-    color: black;
-    display: block
+#myMenu a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
   }
   
-#myMenu li a:hover {
-    background-color: #eee;
+#myMenu a:hover {
+  background: #f1f1f1;
+  color: black;
+    
   }
+  #myMenu a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  #body {
+    padding:0px; /*Remove padding from body section to fill whole screen*/
+    margin:0px; /*Remove margins from body section to fill whole screen*/
+    overflow:hidden;
+  }
+  #content{
+    background-color: grey;
+    width:100%;
+    height:800px;
+    overflow-y: scroll; /*Allow content div in middle of screen to scroll*/ 
+    overflow-x:hidden;  /*stop central div from moving horizontally*/
+}
+
+#btnCamera::file-selector-button {
+  width:70px;
+  height:70px;
+  background-color: grey;
+  border-width: 1px;
+  border-color: white;
+}
+
+
+
+
+
+.contentCard{
+  width:100%;
+  height: 200px;
+  background-color: grey;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+.contentImg{
+  height:80%;
+}
+  #camera {
+    position:relative;
+    top:0px;
+    width:200px;
+    height: 730px;
+    background-color: #596a6d;
+  }
+  #add-location {
+    max-width: 400px;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+input[type="file"] {
+    margin-bottom: 1em;
+}
+
+button {
+    background-color: #4A7183;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #4A7183;
+}
+#spots{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+
+}
+
+.spot{
+  border: 1px;
+  border-radius: 4px;
+  margin: 10px;
+  padding:10px;
+  width: 300px;
+  text-align: left;
+}
+
+.spot img{
+width:100%;
+height:auto;
+border-radius: 4px;
+
+}
+  
+  

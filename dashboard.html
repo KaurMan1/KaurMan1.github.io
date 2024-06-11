@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+       
+        <title>
+            Rate This Spot
+        </title>
+        <link rel = "stylesheet" href="style.css" >
+        <script src="index.js"></script>
+        <!--Stop Scrolling-->
+        <meta name="viewport" content="width-device-width, initial-scale=1.0, user-scalable=no"/>
+        <meta name="HandheldFriendly" content="true"/>
+        <!--Apple remove address bar-->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+    </head>
+
+
+    <body>
+        <div class ="myMenu">
+            <ul id="myMenu">
+                <button onclick="window.open('dashboard.html','_parent')">Dashboard</button>
+                
+                <button onclick="window.open('addlocation.html','_parent')">Add Location</button>
+                <button onclick="window.open('saved.html','_parent')">Saved Locations</button>
+                
+            
+            </ul>
+    
+        <div id="content">
+            <!--Create individual clickable content card in main scrolling content area-->
+            
+            <div class="contentCard" onclick="window.open('londoneye.html','_parent')"> <!--Opens a new window with full sized image-->
+                
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/London_Eye_27.jpg/720px-London_Eye_27.jpg?20080503041633" alt="" class="contentImg"> <!--Displays image  in content card-->
+              <p>The London Eye is open year-round, with extended hours during summer. Evening rides offer a different perspective, with the city beautifully illuminated.</p>  <!--Text description under image-->
+            </div>
+            <div class="contentCard" onclick="window.open('cardiff.html','_parent')"> <!--Opens a new window with full sized image-->
+              
+            <img src="https://th.bing.com/th/id/R.169c093b3068933e949c3997d744840c?rik=PCSVb7bqRF9%2f0Q&pid=ImgRaw&r=0" alt="" class="contentImg"><!--Displays image  in content card-->
+              <p>Cardiff, the capital city of Wales, is a vibrant and culturally rich destination known for its historical landmarks, modern attractions, and friendly atmosphere. Nestled on the southern coast of Wales, Cardiff offers a unique blend of ancient heritage and contemporary charm.</p>  <!--Text description under image-->
+            </div>
+            <div class="contentCard" onclick="window.open('newyork.html','_parent')"> <!--Opens a new window with full sized image-->
+                
+            <img src="https://th.bing.com/th/id/OIP.9DfB7IDaOMv-4BG_klL5LwHaEK?rs=1&pid=ImgDetMain" alt="" class="contentImg"> <!--Displays image  in content card-->
+              <p>New York City, often simply referred to as New York, is one of the most iconic and dynamic cities in the world. Known as "The Big Apple" and "The City That Never Sleeps," New York is a bustling metropolis that offers an unparalleled mix of culture, entertainment, and innovation.</p>  <!--Text description under image-->
+            
+            </div>
+    </body>
+
+</html>
