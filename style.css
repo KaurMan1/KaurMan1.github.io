@@ -42,8 +42,8 @@
   font-size: 17px;
   }
   
-#myMenu a:hover {
-  background: #f1f1f1;
+.myMenu a:hover {
+  background: #7b2b2b;
   color: black;
     
   }
@@ -51,6 +51,9 @@
     background-color: #04AA6D;
     color: white;
   }
+  .my-button:hover {
+    background-color: #005f5f; /* Darker blue background */
+}
   #body {
     padding:0px; /*Remove padding from body section to fill whole screen*/
     margin:0px; /*Remove margins from body section to fill whole screen*/
@@ -78,7 +81,7 @@
 
 .contentCard{
   width:100%;
-  height: 400px;
+  height: 800px;
   background-color: grey;
   border-style: solid;
   border-width: 1px;
@@ -135,7 +138,7 @@ button:hover {
     background-color: #4A7183;
 }
 #spot{
-  background-color: grey;
+  background-color: rgb(255, 255, 255);
   width:100%;
   height:800px;
   overflow-y: scroll; /*Allow content div in middle of screen to scroll*/ 
@@ -144,7 +147,7 @@ button:hover {
 .spot{
   width:100%;
   height: 400px;
-  background-color: grey;
+  background-color: rgb(255, 255, 255);
   border-style: solid;
   border-width: 1px;
   border-color: black;
@@ -156,6 +159,18 @@ button:hover {
   
 }
 
+.mainImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.mainImg{
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
 
 
   
